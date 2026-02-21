@@ -1,0 +1,46 @@
+[package]
+name = "pleme-rbac"
+version = "0.1.0"
+edition = "2021"
+license = "MIT"
+description = "Authorization library for Pleme platform"
+repository = "https://github.com/pleme-io/pleme-rbac"
+homepage = "https://github.com/pleme-io/pleme-rbac"
+readme = "README.md"
+
+[dependencies]
+uuid = { version = "1.11", features = ["serde", "v4"] }
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+thiserror = "2.0"
+http = "1.1"
+jsonwebtoken = { version = "10", default-features = false, features = ["rust_crypto"] }
+chrono = { version = "0.4", features = ["serde"] }
+axum = { version = "0.8.7", features = ["http1", "http2", "json", "query", "tokio", "tower-log"], optional = true }
+tower = { version = "0.4", optional = true }
+tower-layer = { version = "0.3", optional = true }
+async-graphql = { version = "7.0.17", features = ["apollo_tracing", "dataloader"], optional = true }
+sqlx = { version = "0.8", default-features = false, features = ["chrono", "json", "macros", "migrate", "postgres", "runtime-tokio", "uuid"], optional = true }
+redis = { version = "0.24", features = ["connection-manager", "streams", "tokio-comp"], optional = true }
+tracing = { version = "0.1", optional = true }
+cedar-policy = { version = "2.4", optional = true }
+
+[dev-dependencies]
+tokio = { version = "1.41", features = ["full"] }
+tokio-test = "0.4"
+
+[features]
+default = []
+axum-integration = ["axum", "tower", "tower-layer"]
+graphql-integration = ["async-graphql"]
+db = ["sqlx", "redis"]
+policies = ["cedar-policy"]
+logging = ["tracing"]
+web = ["axum-integration", "graphql-integration", "logging"]
+full = ["web", "db", "policies"]
+
+[[example]]
+name = "basic_usage"
+required-features = []
+
+
