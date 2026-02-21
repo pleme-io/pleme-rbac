@@ -7,6 +7,8 @@ description = "Authorization library for Pleme platform"
 repository = "https://github.com/pleme-io/pleme-rbac"
 homepage = "https://github.com/pleme-io/pleme-rbac"
 readme = "README.md"
+keywords = ["authorization", "rbac", "jwt", "zanzibar", "access-control"]
+categories = ["authentication"]
 
 [dependencies]
 uuid = { version = "1.11", features = ["serde", "v4"] }
