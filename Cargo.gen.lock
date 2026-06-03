@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "cargo_lock_sha256": "cd41903ffdf201dc5e4a89356f8a3033d8a09139830973c356c57508ab812324",
+  "cargo_lock_sha256": "db7b1202c6549acf91d0e0e701de9922e097c8cb65cfd21ea601aba243750b81",
   "target_resolves": {
     "base": {
-      "autocfg-1.5.0": {
+      "autocfg-1.5.1": {
         "runtime_dependencies": [],
         "build_dependencies": [],
         "features": []
@@ -179,7 +179,7 @@
           },
           {
             "name": "typenum",
-            "package_key": "typenum-1.19.0",
+            "package_key": "typenum-1.20.1",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -632,7 +632,7 @@
         "runtime_dependencies": [
           {
             "name": "libc",
-            "package_key": "libc-0.2.183",
+            "package_key": "libc-0.2.186",
             "kind": "normal",
             "features": [],
             "uses_default_features": false,
@@ -642,7 +642,7 @@
           },
           {
             "name": "libc",
-            "package_key": "libc-0.2.183",
+            "package_key": "libc-0.2.186",
             "kind": "normal",
             "features": [],
             "uses_default_features": false,
@@ -652,7 +652,7 @@
           },
           {
             "name": "libc",
-            "package_key": "libc-0.2.183",
+            "package_key": "libc-0.2.186",
             "kind": "normal",
             "features": [],
             "uses_default_features": false,
@@ -710,7 +710,7 @@
         "runtime_dependencies": [
           {
             "name": "typenum",
-            "package_key": "typenum-1.19.0",
+            "package_key": "typenum-1.20.1",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -760,7 +760,7 @@
           },
           {
             "name": "libc",
-            "package_key": "libc-0.2.183",
+            "package_key": "libc-0.2.186",
             "kind": "normal",
             "features": [],
             "uses_default_features": false,
@@ -788,7 +788,7 @@
           },
           {
             "name": "libc",
-            "package_key": "libc-0.2.183",
+            "package_key": "libc-0.2.186",
             "kind": "normal",
             "features": [],
             "uses_default_features": false,
@@ -798,7 +798,7 @@
           },
           {
             "name": "libc",
-            "package_key": "libc-0.2.183",
+            "package_key": "libc-0.2.186",
             "kind": "normal",
             "features": [],
             "uses_default_features": false,
@@ -808,7 +808,7 @@
           },
           {
             "name": "libc",
-            "package_key": "libc-0.2.183",
+            "package_key": "libc-0.2.186",
             "kind": "normal",
             "features": [],
             "uses_default_features": false,
@@ -818,7 +818,7 @@
           },
           {
             "name": "libc",
-            "package_key": "libc-0.2.183",
+            "package_key": "libc-0.2.186",
             "kind": "normal",
             "features": [],
             "uses_default_features": false,
@@ -828,7 +828,7 @@
           },
           {
             "name": "libc",
-            "package_key": "libc-0.2.183",
+            "package_key": "libc-0.2.186",
             "kind": "normal",
             "features": [],
             "uses_default_features": false,
@@ -838,7 +838,7 @@
           },
           {
             "name": "libc",
-            "package_key": "libc-0.2.183",
+            "package_key": "libc-0.2.186",
             "kind": "normal",
             "features": [],
             "uses_default_features": false,
@@ -848,7 +848,7 @@
           },
           {
             "name": "libc",
-            "package_key": "libc-0.2.183",
+            "package_key": "libc-0.2.186",
             "kind": "normal",
             "features": [],
             "uses_default_features": false,
@@ -858,7 +858,7 @@
           },
           {
             "name": "libc",
-            "package_key": "libc-0.2.183",
+            "package_key": "libc-0.2.186",
             "kind": "normal",
             "features": [],
             "uses_default_features": false,
@@ -944,7 +944,7 @@
           "reset"
         ]
       },
-      "http-1.4.0": {
+      "http-1.4.1": {
         "runtime_dependencies": [
           {
             "name": "bytes",
@@ -958,7 +958,7 @@
           },
           {
             "name": "itoa",
-            "package_key": "itoa-1.0.17",
+            "package_key": "itoa-1.0.18",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -973,12 +973,12 @@
           "std"
         ]
       },
-      "itoa-1.0.17": {
+      "itoa-1.0.18": {
         "runtime_dependencies": [],
         "build_dependencies": [],
         "features": []
       },
-      "jsonwebtoken-10.3.0": {
+      "jsonwebtoken-10.4.0": {
         "runtime_dependencies": [
           {
             "name": "base64",
@@ -1036,7 +1036,7 @@
           },
           {
             "name": "rand",
-            "package_key": "rand-0.8.5",
+            "package_key": "rand-0.8.6",
             "kind": "normal",
             "features": [
               "std"
@@ -1070,7 +1070,7 @@
           },
           {
             "name": "serde_json",
-            "package_key": "serde_json-1.0.149",
+            "package_key": "serde_json-1.0.150",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -1096,6 +1096,18 @@
             "kind": "normal",
             "features": [
               "std"
+            ],
+            "uses_default_features": true,
+            "optional": false,
+            "target": null,
+            "tree": "target"
+          },
+          {
+            "name": "zeroize",
+            "package_key": "zeroize-1.8.2",
+            "kind": "normal",
+            "features": [
+              "derive"
             ],
             "uses_default_features": true,
             "optional": false,
@@ -1136,7 +1148,7 @@
           "spin_no_std"
         ]
       },
-      "libc-0.2.183": {
+      "libc-0.2.186": {
         "runtime_dependencies": [],
         "build_dependencies": [],
         "features": [
@@ -1171,7 +1183,7 @@
           "default"
         ]
       },
-      "memchr-2.8.0": {
+      "memchr-2.8.1": {
         "runtime_dependencies": [],
         "build_dependencies": [],
         "features": [
@@ -1179,36 +1191,16 @@
           "std"
         ]
       },
-      "mio-1.1.1": {
+      "mio-1.2.1": {
         "runtime_dependencies": [
           {
             "name": "libc",
-            "package_key": "libc-0.2.183",
+            "package_key": "libc-0.2.186",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
             "optional": false,
-            "target": "cfg(unix)",
-            "tree": "target"
-          },
-          {
-            "name": "libc",
-            "package_key": "libc-0.2.183",
-            "kind": "normal",
-            "features": [],
-            "uses_default_features": true,
-            "optional": false,
-            "target": "cfg(target_os = \"hermit\")",
-            "tree": "target"
-          },
-          {
-            "name": "libc",
-            "package_key": "libc-0.2.183",
-            "kind": "normal",
-            "features": [],
-            "uses_default_features": true,
-            "optional": false,
-            "target": "cfg(target_os = \"wasi\")",
+            "target": "cfg(any(unix, target_os = \"hermit\", target_os = \"wasi\"))",
             "tree": "target"
           }
         ],
@@ -1275,7 +1267,7 @@
           },
           {
             "name": "rand",
-            "package_key": "rand-0.8.5",
+            "package_key": "rand-0.8.6",
             "kind": "normal",
             "features": [],
             "uses_default_features": false,
@@ -1357,7 +1349,7 @@
         "build_dependencies": [
           {
             "name": "autocfg",
-            "package_key": "autocfg-1.5.0",
+            "package_key": "autocfg-1.5.1",
             "kind": "build",
             "features": [],
             "uses_default_features": true,
@@ -1384,7 +1376,7 @@
         "build_dependencies": [
           {
             "name": "autocfg",
-            "package_key": "autocfg-1.5.0",
+            "package_key": "autocfg-1.5.1",
             "kind": "build",
             "features": [],
             "uses_default_features": true,
@@ -1557,7 +1549,7 @@
           },
           {
             "name": "libc",
-            "package_key": "libc-0.2.183",
+            "package_key": "libc-0.2.186",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -1678,7 +1670,7 @@
           "std"
         ]
       },
-      "pleme-rbac-0.1.1": {
+      "pleme-rbac-0.1.2": {
         "runtime_dependencies": [
           {
             "name": "chrono",
@@ -1694,7 +1686,7 @@
           },
           {
             "name": "http",
-            "package_key": "http-1.4.0",
+            "package_key": "http-1.4.1",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -1704,7 +1696,7 @@
           },
           {
             "name": "jsonwebtoken",
-            "package_key": "jsonwebtoken-10.3.0",
+            "package_key": "jsonwebtoken-10.4.0",
             "kind": "normal",
             "features": [
               "rust_crypto"
@@ -1728,7 +1720,7 @@
           },
           {
             "name": "serde_json",
-            "package_key": "serde_json-1.0.149",
+            "package_key": "serde_json-1.0.150",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -1748,7 +1740,7 @@
           },
           {
             "name": "uuid",
-            "package_key": "uuid-1.22.0",
+            "package_key": "uuid-1.23.2",
             "kind": "normal",
             "features": [
               "serde",
@@ -1769,7 +1761,7 @@
         "runtime_dependencies": [
           {
             "name": "zerocopy",
-            "package_key": "zerocopy-0.8.42",
+            "package_key": "zerocopy-0.8.50",
             "kind": "normal",
             "features": [
               "simd"
@@ -1840,11 +1832,11 @@
           "proc-macro"
         ]
       },
-      "rand-0.8.5": {
+      "rand-0.8.6": {
         "runtime_dependencies": [
           {
             "name": "libc",
-            "package_key": "libc-0.2.183",
+            "package_key": "libc-0.2.186",
             "kind": "normal",
             "features": [],
             "uses_default_features": false,
@@ -2110,7 +2102,7 @@
         "runtime_dependencies": [
           {
             "name": "semver",
-            "package_key": "semver-1.0.27",
+            "package_key": "semver-1.0.28",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -2205,7 +2197,7 @@
           "zeroize"
         ]
       },
-      "semver-1.0.27": {
+      "semver-1.0.28": {
         "runtime_dependencies": [],
         "build_dependencies": [],
         "features": [
@@ -2302,11 +2294,11 @@
           "default"
         ]
       },
-      "serde_json-1.0.149": {
+      "serde_json-1.0.150": {
         "runtime_dependencies": [
           {
             "name": "itoa",
-            "package_key": "itoa-1.0.17",
+            "package_key": "itoa-1.0.18",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -2316,7 +2308,7 @@
           },
           {
             "name": "memchr",
-            "package_key": "memchr-2.8.0",
+            "package_key": "memchr-2.8.1",
             "kind": "normal",
             "features": [],
             "uses_default_features": false,
@@ -2405,7 +2397,7 @@
           },
           {
             "name": "libc",
-            "package_key": "libc-0.2.183",
+            "package_key": "libc-0.2.186",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -2453,11 +2445,11 @@
         "build_dependencies": [],
         "features": []
       },
-      "socket2-0.6.3": {
+      "socket2-0.6.4": {
         "runtime_dependencies": [
           {
             "name": "libc",
-            "package_key": "libc-0.2.183",
+            "package_key": "libc-0.2.186",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -2619,7 +2611,7 @@
         "build_dependencies": [],
         "features": []
       },
-      "tokio-1.50.0": {
+      "tokio-1.52.3": {
         "runtime_dependencies": [
           {
             "name": "bytes",
@@ -2633,7 +2625,7 @@
           },
           {
             "name": "libc",
-            "package_key": "libc-0.2.183",
+            "package_key": "libc-0.2.186",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -2643,7 +2635,7 @@
           },
           {
             "name": "libc",
-            "package_key": "libc-0.2.183",
+            "package_key": "libc-0.2.186",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -2652,8 +2644,18 @@
             "tree": "target"
           },
           {
+            "name": "libc",
+            "package_key": "libc-0.2.186",
+            "kind": "normal",
+            "features": [],
+            "uses_default_features": true,
+            "optional": true,
+            "target": "cfg(target_os = \"wasi\")",
+            "tree": "target"
+          },
+          {
             "name": "mio",
-            "package_key": "mio-1.1.1",
+            "package_key": "mio-1.2.1",
             "kind": "normal",
             "features": [],
             "uses_default_features": false,
@@ -2663,7 +2665,7 @@
           },
           {
             "name": "mio",
-            "package_key": "mio-1.1.1",
+            "package_key": "mio-1.2.1",
             "kind": "normal",
             "features": [],
             "uses_default_features": false,
@@ -2703,19 +2705,19 @@
           },
           {
             "name": "socket2",
-            "package_key": "socket2-0.6.3",
+            "package_key": "socket2-0.6.4",
             "kind": "normal",
             "features": [
               "all"
             ],
             "uses_default_features": true,
             "optional": true,
-            "target": "cfg(not(target_family = \"wasm\"))",
+            "target": "cfg(any(not(target_family = \"wasm\"), all(target_os = \"wasi\", not(target_env = \"p1\"))))",
             "tree": "target"
           },
           {
             "name": "tokio_macros",
-            "package_key": "tokio-macros-2.6.1",
+            "package_key": "tokio-macros-2.7.0",
             "kind": "normal",
             "features": [],
             "uses_default_features": true,
@@ -2750,7 +2752,7 @@
           "windows-sys"
         ]
       },
-      "tokio-macros-2.6.1": {
+      "tokio-macros-2.7.0": {
         "runtime_dependencies": [
           {
             "name": "proc_macro2",
@@ -2812,7 +2814,7 @@
           },
           {
             "name": "tokio",
-            "package_key": "tokio-1.50.0",
+            "package_key": "tokio-1.52.3",
             "kind": "normal",
             "features": [
               "sync"
@@ -2843,7 +2845,7 @@
           },
           {
             "name": "tokio",
-            "package_key": "tokio-1.50.0",
+            "package_key": "tokio-1.52.3",
             "kind": "normal",
             "features": [
               "rt",
@@ -2870,7 +2872,7 @@
         "build_dependencies": [],
         "features": []
       },
-      "typenum-1.19.0": {
+      "typenum-1.20.1": {
         "runtime_dependencies": [],
         "build_dependencies": [],
         "features": []
@@ -2880,7 +2882,7 @@
         "build_dependencies": [],
         "features": []
       },
-      "uuid-1.22.0": {
+      "uuid-1.23.2": {
         "runtime_dependencies": [
           {
             "name": "getrandom",
@@ -2917,7 +2919,7 @@
         "build_dependencies": [],
         "features": []
       },
-      "zerocopy-0.8.42": {
+      "zerocopy-0.8.50": {
         "runtime_dependencies": [],
         "build_dependencies": [],
         "features": [
@@ -2925,12 +2927,65 @@
         ]
       },
       "zeroize-1.8.2": {
-        "runtime_dependencies": [],
+        "runtime_dependencies": [
+          {
+            "name": "zeroize_derive",
+            "package_key": "zeroize_derive-1.4.3",
+            "kind": "normal",
+            "features": [],
+            "uses_default_features": true,
+            "optional": true,
+            "target": null,
+            "tree": "host"
+          }
+        ],
         "build_dependencies": [],
         "features": [
           "alloc",
-          "default"
+          "default",
+          "derive",
+          "zeroize_derive"
         ]
+      },
+      "zeroize_derive-1.4.3": {
+        "runtime_dependencies": [
+          {
+            "name": "proc_macro2",
+            "package_key": "proc-macro2-1.0.106",
+            "kind": "normal",
+            "features": [],
+            "uses_default_features": true,
+            "optional": false,
+            "target": null,
+            "tree": "target"
+          },
+          {
+            "name": "quote",
+            "package_key": "quote-1.0.45",
+            "kind": "normal",
+            "features": [],
+            "uses_default_features": true,
+            "optional": false,
+            "target": null,
+            "tree": "target"
+          },
+          {
+            "name": "syn",
+            "package_key": "syn-2.0.117",
+            "kind": "normal",
+            "features": [
+              "full",
+              "extra-traits",
+              "visit"
+            ],
+            "uses_default_features": true,
+            "optional": false,
+            "target": null,
+            "tree": "target"
+          }
+        ],
+        "build_dependencies": [],
+        "features": []
       },
       "zmij-1.0.21": {
         "runtime_dependencies": [],
@@ -2953,7 +3008,7 @@
             "runtime_dependencies": [
               {
                 "name": "libc",
-                "package_key": "libc-0.2.183",
+                "package_key": "libc-0.2.186",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": false,
@@ -2963,7 +3018,7 @@
               },
               {
                 "name": "libc",
-                "package_key": "libc-0.2.183",
+                "package_key": "libc-0.2.186",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": false,
@@ -2973,7 +3028,7 @@
               },
               {
                 "name": "libc",
-                "package_key": "libc-0.2.183",
+                "package_key": "libc-0.2.186",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": false,
@@ -2983,7 +3038,7 @@
               },
               {
                 "name": "libc",
-                "package_key": "libc-0.2.183",
+                "package_key": "libc-0.2.186",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": false,
@@ -3510,7 +3565,7 @@
             "runtime_dependencies": [
               {
                 "name": "libc",
-                "package_key": "libc-0.2.183",
+                "package_key": "libc-0.2.186",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": false,
@@ -3520,7 +3575,7 @@
               },
               {
                 "name": "libc",
-                "package_key": "libc-0.2.183",
+                "package_key": "libc-0.2.186",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": false,
@@ -3530,7 +3585,7 @@
               },
               {
                 "name": "libc",
-                "package_key": "libc-0.2.183",
+                "package_key": "libc-0.2.186",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": false,
@@ -3540,7 +3595,7 @@
               },
               {
                 "name": "libc",
-                "package_key": "libc-0.2.183",
+                "package_key": "libc-0.2.186",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": false,
@@ -3629,7 +3684,7 @@
             "runtime_dependencies": [
               {
                 "name": "libc",
-                "package_key": "libc-0.2.183",
+                "package_key": "libc-0.2.186",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": false,
@@ -3639,7 +3694,7 @@
               },
               {
                 "name": "libc",
-                "package_key": "libc-0.2.183",
+                "package_key": "libc-0.2.186",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": false,
@@ -3649,7 +3704,7 @@
               },
               {
                 "name": "libc",
-                "package_key": "libc-0.2.183",
+                "package_key": "libc-0.2.186",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": false,
@@ -3659,7 +3714,7 @@
               },
               {
                 "name": "libc",
-                "package_key": "libc-0.2.183",
+                "package_key": "libc-0.2.186",
                 "kind": "normal",
                 "features": [],
                 "uses_default_features": false,
@@ -3745,7 +3800,7 @@
     }
   },
   "per_crate": {
-    "autocfg-1.5.0": {
+    "autocfg-1.5.1": {
       "edition": "2015"
     },
     "base16ct-0.2.0": {
@@ -3835,22 +3890,22 @@
     "hmac-0.12.1": {
       "edition": "2018"
     },
-    "http-1.4.0": {
+    "http-1.4.1": {
       "edition": "2021"
     },
     "iana-time-zone-0.1.65": {
       "edition": "2021"
     },
-    "itoa-1.0.17": {
+    "itoa-1.0.18": {
       "edition": "2021"
     },
-    "jsonwebtoken-10.3.0": {
+    "jsonwebtoken-10.4.0": {
       "edition": "2024"
     },
     "lazy_static-1.5.0": {
       "edition": "2015"
     },
-    "libc-0.2.183": {
+    "libc-0.2.186": {
       "edition": "2021",
       "build_script": "build.rs"
     },
@@ -3861,10 +3916,10 @@
     "lock_api-0.4.14": {
       "edition": "2021"
     },
-    "memchr-2.8.0": {
+    "memchr-2.8.1": {
       "edition": "2021"
     },
-    "mio-1.1.1": {
+    "mio-1.2.1": {
       "edition": "2021"
     },
     "num-bigint-dig-0.8.6": {
@@ -3906,7 +3961,7 @@
     "pkcs8-0.10.2": {
       "edition": "2021"
     },
-    "pleme-rbac-0.1.1": {
+    "pleme-rbac-0.1.2": {
       "edition": "2021",
       "lib_target": {
         "name": "pleme_rbac",
@@ -3927,7 +3982,7 @@
       "edition": "2021",
       "build_script": "build.rs"
     },
-    "rand-0.8.5": {
+    "rand-0.8.6": {
       "edition": "2018"
     },
     "rand_chacha-0.3.1": {
@@ -3951,8 +4006,8 @@
     "sec1-0.7.3": {
       "edition": "2021"
     },
-    "semver-1.0.27": {
-      "edition": "2018"
+    "semver-1.0.28": {
+      "edition": "2021"
     },
     "serde-1.0.228": {
       "edition": "2021",
@@ -3966,7 +4021,7 @@
       "edition": "2021",
       "proc_macro": true
     },
-    "serde_json-1.0.149": {
+    "serde_json-1.0.150": {
       "edition": "2021",
       "build_script": "build.rs"
     },
@@ -3982,7 +4037,7 @@
     "smallvec-1.15.1": {
       "edition": "2018"
     },
-    "socket2-0.6.3": {
+    "socket2-0.6.4": {
       "edition": "2021"
     },
     "spin-0.9.8": {
@@ -4005,10 +4060,10 @@
       "edition": "2021",
       "proc_macro": true
     },
-    "tokio-1.50.0": {
+    "tokio-1.52.3": {
       "edition": "2021"
     },
-    "tokio-macros-2.6.1": {
+    "tokio-macros-2.7.0": {
       "edition": "2021",
       "proc_macro": true
     },
@@ -4018,25 +4073,28 @@
     "tokio-test-0.4.5": {
       "edition": "2021"
     },
-    "typenum-1.19.0": {
-      "edition": "2018",
-      "build_script": "build.rs"
+    "typenum-1.20.1": {
+      "edition": "2018"
     },
     "unicode-ident-1.0.24": {
       "edition": "2021"
     },
-    "uuid-1.22.0": {
+    "uuid-1.23.2": {
       "edition": "2021"
     },
     "version_check-0.9.5": {
       "edition": "2015"
     },
-    "zerocopy-0.8.42": {
+    "zerocopy-0.8.50": {
       "edition": "2021",
       "build_script": "build.rs"
     },
     "zeroize-1.8.2": {
       "edition": "2021"
+    },
+    "zeroize_derive-1.4.3": {
+      "edition": "2021",
+      "proc_macro": true
     },
     "zmij-1.0.21": {
       "edition": "2021",
